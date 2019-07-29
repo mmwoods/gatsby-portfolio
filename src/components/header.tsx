@@ -15,8 +15,12 @@ export interface HeaderProps extends React.HTMLAttributes<HTMLDivElement> {
 export const Header: React.FC<HeaderProps> = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#fff`,
       marginBottom: `1.45rem`,
+      position: `fixed`,
+      top: 0,
+      width: `100%`,
+      zIndex: 1,
     }}
   >
     <div
@@ -30,7 +34,7 @@ export const Header: React.FC<HeaderProps> = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `#000`,
             textDecoration: `none`,
           }}
         >
