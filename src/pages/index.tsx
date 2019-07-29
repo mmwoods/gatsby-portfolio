@@ -15,16 +15,17 @@ const IndexPage = () => (
     {/* Intro */}
     <div style={{ textAlign: "center" }}>
       <h1>Front End Developer and Designer</h1>
-      <p>
+      <h2>
         Passionate about how design affects user’s interactions and
         understanding, specifically through minimalist style.
-      </p>
+      </h2>
     </div>
 
     <div style={{ maxWidth: `300px`, margin: `3rem auto` }}>
       <Image />
     </div>
 
+    {/* Projects */}
     {projects.map((item, index) => (
       <Project
         key={item.index}
@@ -35,7 +36,7 @@ const IndexPage = () => (
         repo={item.repo}
       />
     ))}
-    <Link to="/page-2/">Go to page 2</Link>
+    <Link to="/resume/">Resume</Link>
   </Layout>
 )
 
