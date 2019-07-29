@@ -1,5 +1,6 @@
 export const projects = [
   {
+    index: 0,
     title: "Bespoke Premium Theme",
     summary:
       "The first drag & drop, Bootstrap 4, based theme on the Neto eCommerce platform. Featuring a component based design, to allow for easier code maintenance, readability, and additions.",
@@ -29,6 +30,7 @@ export const projects = [
     repo: "https://github.com/mmwoods/Bespoke-Theme",
   },
   {
+    index: 1,
     title: "Project Scope",
     summary:
       "Parses markdown and calculates Coding, Design, and Total hours for each segment of a website Project Scope. Featuring a desktop app, PDF generation, and local storage.",
@@ -62,6 +64,7 @@ export const projects = [
     repo: "https://github.com/mmwoods/project_scope",
   },
   {
+    index: 2,
     title: "CUA Digital Style Guide",
     summary:
       "Defines the code standards, development process, and getting started/learning resources, for new developers within the team.",
@@ -91,6 +94,7 @@ export const projects = [
     repo: "#",
   },
   {
+    index: 3,
     title: "Financial Wellbeing Calculator",
     summary:
       "Displays a 13 question quiz which when complete assigns a category to a user (eg. doing well, struggling etc.). This category then affects the content displayed on the page (eg. blog posts, videos etc.).",
@@ -120,6 +124,7 @@ export const projects = [
     repo: "#",
   },
   {
+    index: 4,
     title: "ReactJS Component Library",
     summary:
       "Setup as a Lerna monorepo with every component including type checking, Storybook integration, usage docs, and full JSDoc commenting.",

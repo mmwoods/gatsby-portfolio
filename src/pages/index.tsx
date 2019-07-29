@@ -11,15 +11,23 @@ import { projects } from "../data/projects"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+
+    {/* Intro */}
+    <div style={{ textAlign: "center" }}>
+      <h1>Front End Developer and Designer</h1>
+      <p>
+        Passionate about how design affects user’s interactions and
+        understanding, specifically through minimalist style.
+      </p>
+    </div>
+
+    <div style={{ maxWidth: `300px`, margin: `3rem auto` }}>
       <Image />
     </div>
 
     {projects.map((item, index) => (
       <Project
+        key={item.index}
         title={item.title}
         summary={item.summary}
         technology={item.technology}

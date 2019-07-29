@@ -26,7 +26,6 @@ export const Header: React.FC<HeaderProps> = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
       }}
     >
@@ -36,6 +35,7 @@ export const Header: React.FC<HeaderProps> = ({ siteTitle }) => (
           style={{
             color: `#000`,
             textDecoration: `none`,
+            textTransform: `lowercase`,
           }}
         >
           {siteTitle || ``}
