@@ -1,10 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 // Components
-import { Layout } from "../components/layout"
-import { Image } from "../components/image"
-import { SEO } from "../components/seo"
-import { Project } from "../components/Project"
+import { Layout } from "../components/Layout/Layout"
+import { Image } from "../components/Image/Image"
+import { SEO } from "../components/Seo/Seo"
+import { Project } from "../components/Project/Project"
 // Data
 import { projects } from "../data/projects"
 

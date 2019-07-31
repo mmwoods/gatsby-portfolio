@@ -8,8 +8,8 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import { Header } from "./header"
-import "./layout.css"
+import { Header } from "../Header/header"
+import "./Layout.css"
 
 export interface LayoutProps extends React.HTMLAttributes<HTMLDivElement> {
   children: any
